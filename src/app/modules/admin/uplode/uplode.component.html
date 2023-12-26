@@ -1,0 +1,18 @@
+<fuse-card class="flex flex-col max-w-300 w-full filter-article">
+   
+        <div class="m-8">
+            <div>
+                <input type="file" (change)="onSelected($event)"  />
+              </div>
+        </div>
+        <div class="m-8">
+            <fuse-card class="flex flex-col max-w-80 w-full p-8 pb-4 filter-article">
+                <div class="flex items-center">
+                    <img
+                        class="w-50 rounded-lg object-cover"
+                        [src]="imageUrl"
+                        alt="Card cover image">
+                </div>
+            </fuse-card>
+        </div>  
+</fuse-card>

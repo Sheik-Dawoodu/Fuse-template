@@ -1,0 +1,11 @@
+$table-width: 100%;
+$mat-mdc-form-field-font-size: 14px;
+
+table {
+  width: $table-width;
+}
+
+.mat-mdc-form-field {
+  font-size: $mat-mdc-form-field-font-size;
+  width: $table-width;
+}
